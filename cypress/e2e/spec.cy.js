@@ -8,6 +8,6 @@ describe('Login', () => {
     cy.wait(2000)
     cy.get('.button.addPro.button.tooltip_cvr').click()
     cy.get('input[formcontrolname=ClerkName]').type("Haysim")
-    //cy.get('.input.form-control.ng-pristine.ng-invalid.is-invalid ng-touched').click()
+    cy.get('.input.form-control.ng-pristine.ng-invalid.is-invalid ng-touched').click()
   })
 })
